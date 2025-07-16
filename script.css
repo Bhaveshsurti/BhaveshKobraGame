@@ -41,7 +41,7 @@ function draw() {
     snake.some(s => s.x === headX && s.y === headY)
   ) {
     clearInterval(game);
-    alert("Game Over! 🐍");
+    alert("Game Over!");
     return;
   }
 
